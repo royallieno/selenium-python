@@ -1,0 +1,81 @@
+1653771090397	geckodriver	INFO	Listening on 127.0.0.1:61731
+1653771093461	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61732" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\gulna\\AppData\\Local\\Temp\\rust_mozprofiledl4BWq"
+1653771093956	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\gulna\\AppData\\Local\\Temp\\rust_mozprofiledl4BWq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61732/devtools/browser/703020ec-0d61-466b-ac22-42e08285943d
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+1653771095833	Marionette	INFO	Listening on port 61757
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+Read port: 61757
+1653771095940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653771103949	Marionette	INFO	Stopped listening on port 61757
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1653771130990	geckodriver	INFO	Listening on 127.0.0.1:61815
+1653771134040	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61816" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\gulna\\AppData\\Local\\Temp\\rust_mozprofileAL0go5"
+1653771134351	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\gulna\\AppData\\Local\\Temp\\rust_mozprofileAL0go5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61816/devtools/browser/bd857de0-5482-4895-a3dd-7ec898aa5a88
+1653771135777	Marionette	INFO	Listening on port 61842
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+Read port: 61842
+1653771135916	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653771163978	Marionette	INFO	Stopped listening on port 61842
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1653771748952	geckodriver	INFO	Listening on 127.0.0.1:62382
+1653771752031	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62383" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\gulna\\AppData\\Local\\Temp\\rust_mozprofileBHq3BL"
+1653771752314	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\gulna\\AppData\\Local\\Temp\\rust_mozprofileBHq3BL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62383/devtools/browser/e3c1f3ce-4025-42f5-b652-650dee736d18
+1653771753919	Marionette	INFO	Listening on port 62405
+Read port: 62405
+1653771754048	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QVskxRw7CvsogGZyHRgqudPcMMWoBc1HqTdFrXgdWFU.js line 2 > eval line 5625 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653771765309	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+GeckoDriver.prototype.minimizeWindow@chrome://remote/content/marionette/driver.js:2294:11
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QVskxRw7CvsogGZyHRgqudPcMMWoBc1HqTdFrXgdWFU.js line 2 > eval line 6143 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653771784250	Marionette	INFO	Stopped listening on port 62405
+[Parent 3748, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1654020820606	geckodriver	INFO	Listening on 127.0.0.1:62707
+1654020823640	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62708" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\gulna\\AppData\\Local\\Temp\\rust_mozprofileuYCyYz"
+1654020823981	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\gulna\\AppData\\Local\\Temp\\rust_mozprofileuYCyYz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62708/devtools/browser/bfb484f9-0dd2-4522-9880-88072d539e7d
+1654020825753	Marionette	INFO	Listening on port 62729
+Read port: 62729
+1654020825894	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://rahulshettyacademy.com"
+1654020835844	Marionette	INFO	Stopped listening on port 62729
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+

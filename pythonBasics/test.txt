@@ -1,0 +1,5 @@
+apple
+bottle
+cattle
+duplicate
+elephant
