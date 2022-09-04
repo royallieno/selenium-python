@@ -1,0 +1,9 @@
+2022-08-23 00:36:38,803 :INFO :pytestDemo.baseClass :Gulnawaz
+2022-08-23 00:36:38,803 :INFO :pytestDemo.baseClass :gulnawazarshadacademy.com
+2022-08-23 00:36:51,264 :INFO :test_editProfile :Gulnawaz
+2022-08-23 00:36:51,264 :INFO :test_editProfile :gulnawazarshadacademy.com
+2022-08-23 00:39:06,726 :INFO :test_editProfile :Gulnawaz
+2022-08-23 00:39:06,727 :INFO :test_editProfile :gulnawazarshadacademy.com
+2022-08-23 00:39:06,731 :WARNING :pytestDemo.test_logging :Something is in warning mode
+2022-08-23 00:39:06,732 :ERROR :pytestDemo.test_logging :A Major error has happend
+2022-08-23 00:39:06,732 :CRITICAL :pytestDemo.test_logging :Critical issue

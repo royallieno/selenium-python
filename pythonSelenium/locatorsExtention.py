@@ -1,15 +1,23 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 
-driver = webdriver.Chrome(executable_path="C:\\chromedriver.exe")
-driver.get("https://login.salesforce.com/")
-driver.find_element_by_css_selector("#username").send_keys("Gulnawaz")
-driver.find_element_by_css_selector(".password").send_keys("Arshad")
-driver.find_element_by_css_selector(".password").clear()
-driver.find_element_by_link_text("Forgot Your Password?").click()
+from selenium.webdriver.common.by import By
 
-# //tagname[text()='xxx']
-# driver.find_element_by_xpath("//a[text()='Cancel']").click()
-driver.find_element_by_name("cancel").click()
+# Chrome -
+# service_object = Service("C:\\chromedriver.exe")
+# driver = webdriver.Chrome(service=service_object)
 
-print(driver.find_element_by_xpath("//form[@name='login']/div[1]/label").text)
-print(driver.find_element_by_css_selector("form[name='login'] label:nth-child(3)").text)
+# Microsoft Edge -
+from selenium.webdriver.support.select import Select
+
+service_object = Service("C:\\msedgedriver.exe")
+driver = webdriver.Edge(service=service_object)
+
+driver.get("https://rahulshettyacademy.com/client")
+driver.find_element(By.LINK_TEXT, "Forgot password?").click()
+driver.find_element(By.XPATH, "//form/div[1]/input").send_keys("demo@gmail.com")
+driver.find_element(By.CSS_SELECTOR, "form div:nth-child(2) input").send_keys("Demo@1234")
+driver.find_element(By.ID, "confirmPassword").send_keys("Demo@1234")
+
+# driver.find_element(By.XPATH, "//button[@type='submit']").click()
+driver.find_element(By.XPATH, "//button[text()='Save New Password']").click()
